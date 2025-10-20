@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Math Blog – by Aradhya</title>
+  <title>Research Blog – by Aradhya</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.6; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #2b5fab;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 30px;
+    }
     h1 { color: #2b5fab; }
-    article { border-bottom: 1px solid #ddd; margin-bottom: 20px; padding-bottom: 10px; }
-    a { color: #2b5fab; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    article {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+    }
+    article a {
+      color: #2b5fab;
+      text-decoration: none;
+    }
+    article a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 30px;
+    }
   </style>
 </head>
 <body>
-  <h1>My Math Blog 🧮</h1>
-  <p>Welcome! Here I’ll share simple posts about basic math concepts.</p>
 
-  <article>
-    <h2><a href="blog1-addition.html">Understanding Addition</a></h2>
-    <p>Let’s explore how addition works and why it’s the building block for all math.</p>
-  </article>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+  </nav>
 
-  <article>
-    <h2><a href="blog2-fractions.html">Fun with Fractions</a></h2>
-    <p>What are fractions and why do we use them? Find out here!</p>
-  </article>
+  <!-- Blog Content -->
+  <div class="content">
+    <h1>My Research Blog 🔬</h1>
+    <p>Welcome! Here I share posts about the cool things I research and explore — from science and technology to everyday discoveries.</p>
 
-  <footer>
-    <p><a href="index.html">← Back to Home</a></p>
-  </footer>
+    <article>
+      <h2><a href="blog1-energy.html">Exploring Different Types of Energy</a></h2>
+      <p>Let’s learn about how energy powers everything around us — from light bulbs to rockets!</p>
+    </article>
+
+    <article>
+      <h2><a href="blog2-watercycle.html">The Amazing Water Cycle</a></h2>
+      <p>How does water travel from the oceans to clouds and back again? Let’s find out!</p>
+    </article>
+
+    <article>
+      <h2><a href="blog3-robots.html">How Robots Learn to Move</a></h2>
+      <p>A beginner-friendly look at how scientists teach robots to walk, see, and think.</p>
+    </article>
+
+    <footer>
+      <p><a href="index.html">← Back to Home</a></p>
+    </footer>
+  </div>
 </body>
 </html>
+
